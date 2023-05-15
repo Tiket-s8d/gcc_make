@@ -3,19 +3,16 @@
         {
             "name": "Win32",
             "includePath": [
-                "additional/paths",
+                "Inc",
                 "${default}"
             ],
             "defines": [
                 "${default}"
             ],
-            "macFrameworkPath": [
-                "${default}",
-                "additional/paths"
-            ],
+
             "forcedInclude": [
                 "${default}",
-                "additional/paths"
+                "Inc"
             ],
             "compileCommands": "${default}",
             "browse": {
@@ -23,7 +20,7 @@
                 "databaseFilename": "${default}",
                 "path": [
                     "${default}",
-                    "additional/paths"
+                    "Inc"
                 ]
             },
             "intelliSenseMode": "${default}",
