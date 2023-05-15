@@ -23,12 +23,12 @@
 Перед этим создадим переменную окружения чтобы использовать.
 Windows 10
 ```
-    set job=\source\
+    set job=\source
 ```
 
 Linux
 ```
-    export job=\source\
+    export job=\source
 ```
 
 
@@ -49,9 +49,14 @@ Linux
 ## Способ 2
 Использовать ключ -I после этого ключа обязательно должно идти расположение заголовочных файлов, этот флаг указывает компилятору где расположенные заголовочные файлы.
 
-
+Windows
 ```
-    gcc main.c -I %job%Inc/ %job%Src/*.c
+    gcc main.c -I %job%/Inc/ %job%/Src/*.c
+```
+
+Linux
+```
+gcc main.c -I $job/Inc $job/Src/*.c
 ```
 
 ## Способ 3 

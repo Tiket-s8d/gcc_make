@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include "Inc/test.h"
 
 int main(void){
-    printf("%d\n",add(2,2));
+    printf("%d\n",51);
     return 0;
 }
