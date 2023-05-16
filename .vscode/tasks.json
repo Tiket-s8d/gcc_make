@@ -3,7 +3,7 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "shell: gcc.exe",
+            "label": "gcc: build one file",
             "command": "gcc",
             "args": [
                 "${file}","-g","-o","${fileDirname}\\${fileBasenameNoExtension}.exe"
@@ -21,10 +21,40 @@
         }
         ,{
             "type": "shell",
-            "label": "shell: gcc.exe builds many files",
+            "label": "gcc: Debug",
             "command": "gcc",
             "args": [
                 "-g","${file}","-I","${fileDirname}\\Inc\\","${fileDirname}\\Src\\*.c","-o","${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+           
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        },{
+            "type": "shell",
+            "label": "gcc: Build",
+            "command": "gcc",
+            "args": [
+                "-static","${file}","-I","${fileDirname}\\Inc\\","${fileDirname}\\Src\\*.c","-o","${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+           
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        },{
+            "type": "shell",
+            "label": "gcc: Build static lib",
+            "command": "gcc",
+            "args": [
+                "${file}","-L.","${fileDirname}\\Src\\*.a",
             ],
            
             "problemMatcher": [

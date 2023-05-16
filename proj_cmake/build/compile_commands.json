@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Tik/Documents/proj_cmake/build",
+  "command": "\"\\$$PATH/bin/gcc\"  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles/main.dir/main.c.obj -c C:/Users/Tik/Documents/proj_cmake/main.c",
+  "file": "C:/Users/Tik/Documents/proj_cmake/main.c",
+  "output": "CMakeFiles/main.dir/main.c.obj"
+}
+]

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "VS_Code_SetUp",
+			"path": "."
+		},
+		{
+			"name": "VS_code",
+			"path": "../../../VS_code"
+		}
+	],
+	"settings": {}
+}
