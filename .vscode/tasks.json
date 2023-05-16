@@ -3,15 +3,13 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "shell: gcc.exe build active file",
+            "label": "shell: gcc.exe",
             "command": "gcc",
             "args": [
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}.exe"
+                "${file}","-g","-o","${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "${PATH}"
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": [
                 "$gcc"
@@ -20,21 +18,15 @@
                 "kind": "build",
                 "isDefault": true
             },
-        },{
+        }
+        ,{
             "type": "shell",
-            "label": "shell: gcc.exe build active file",
+            "label": "shell: gcc.exe builds many files",
             "command": "gcc",
             "args": [
-                "${file}",
-                "-I",
-                "${fileDirname}/Inc/",
-                "${fileDirname}/Src/*.c",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}.exe"
+                "-g","${file}","-I","${fileDirname}\\Inc\\","${fileDirname}\\Src\\*.c","-o","${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
-            "options": {
-                "cwd": "${PATH}"
-            },
+           
             "problemMatcher": [
                 "$gcc"
             ],

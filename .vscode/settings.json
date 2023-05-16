@@ -2,6 +2,6 @@
     "files.associations": {
         "stdio.h": "c"
     },
-    "cmake.configureOnOpen": true,
+ 
     
 }

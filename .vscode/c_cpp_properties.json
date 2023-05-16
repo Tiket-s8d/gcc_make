@@ -10,10 +10,7 @@
                 "${default}"
             ],
 
-            "forcedInclude": [
-                "${default}",
-                "Inc"
-            ],
+          
             "compileCommands": "${default}",
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
