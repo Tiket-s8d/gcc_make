@@ -1,11 +1,9 @@
 
 ENTRY(mymain)
 
-SECTIONS
-{
-   . = 0x10000;
-   .text : { *(.text) }
-   . = 0x8000000;
-   .data : { *(.data) }
-   .bss : { *(.bss) }
-}
+
+MEMORY 
+   {
+   rom : ORIGIN = 0, LENGTH = 256K
+   ram : org = 0x40000000, l = 4M
+   }
