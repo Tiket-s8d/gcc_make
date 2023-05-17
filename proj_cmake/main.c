@@ -1,6 +1,6 @@
 #include "main.h"
 
 int main(void){
-    add(2,2);
+    func();
     return 0;
 }

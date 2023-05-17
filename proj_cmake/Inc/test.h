@@ -1,4 +1,2 @@
-#ifndef TEST_H
-#define TEST_H
-int add(int x, int y);
-#endif /*TEST_H*/
+#include <stdio.h>
+void func();

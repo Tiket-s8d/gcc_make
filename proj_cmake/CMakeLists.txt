@@ -1,12 +1,6 @@
 cmake_minimum_required(VERSION 3.26)
-project(ProjectName)
-
-set(CMAKE_C_COMPILER "$PATH/bin/gcc")
-set(CMAKE_CXX_COMPILER "$PATH/bin/g++")
-
-include_directories("Inc/")
-include_directories("Src/")
-
-
-
-add_executable(main main.c)
+project(MyApp)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/Inc)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG${CMAKE_CURRENT_SOURCE_DIR}/Debug)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEAS ${CMAKE_CURRENT_SOURCE_DIR}/Release)
+add_executable(${PROJECT_NAME} main.c ${CMAKE_CURRENT_SOURCE_DIR}/Src/test.c)

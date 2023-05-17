@@ -1,0 +1,3 @@
+C:/Users/Tik/Documents/gcc_make/proj_cmake/Debug/CMakeFiles/MyApp.dir
+C:/Users/Tik/Documents/gcc_make/proj_cmake/Debug/CMakeFiles/edit_cache.dir
+C:/Users/Tik/Documents/gcc_make/proj_cmake/Debug/CMakeFiles/rebuild_cache.dir

@@ -12,13 +12,50 @@ cmake --help
 
 # Для сборки проекта типа Reales или Debug
 
-Нужно ввести комманду 
-```
-cmake 
-```
-``
+Есть два способо как можно собирать проект.
+### Способ 1
+Для начала нужно перейти в директорию в которую будем собирать проект какого либо рода 
+Например мы в директории project и она имеет такую структуру 
+- project
+	- main.c
+	- CMakeLists.txt
+	- Src/
+	- Inc/
+	- Debug/
+	- Release/
+Переходим в директорию Debug и прописываем 
 
+```
+cmake *Путь до CMakeList.txt*
+cmake -DCMAKE_BUILD_TYPE=Debug *Путь до CMakeList.txt*
+```
+после чего программа собирется типа Debug.
+Если возникла проблемма с генератором то нужно удалить все что создалось в директории Debug и прописать в ней следующию комманду
+```
 
+cmake -G *Название генератора*
+```
+после чего повторить предыдущую функцию.
+Аналогично с Release
+```
+cmake *Путь до CMakeList.txt*
+cmake -DCMAKE_BUILD_TYPE=Release *Путь до CMakeList.txt*
+```
+
+### Способ 2
+Для начала все так же нужно перейти в в директорию и прописать
+```
+cmake *Путь до CMakeList.txt*
+```
+После чего нужно вернуться в CMakeLists.txt
+и там прописать для Debug
+```
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG${CMAKE_CURRENT_SOURCE_DIR}/Debug)
+```
+и для Release
+```
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEAS ${CMAKE_CURRENT_SOURCE_DIR}/Release)
+```
 # Команды общего назначения
 ```
 cmake_minimum_required(VERSION)
@@ -58,18 +95,22 @@ message([<режим>]<строка 1> ... <строка n>)
 | FATAL_ERROR | Серьёзная ошибка | - | - |
 | DEPRECATION | Исаользование устаревшей возможности| Настриваемая | Настриваемая |
 
+#  Подключение фалов из других директорий
+Например мы находимся в директории
+- main.c
+- Inc/
+	- main.h
+	- test.h
+- Src/
+	- test.c
+ CMakeLists.txt
 
 
-
-
-
-
-
-# Переменные
-
-
-
+Для подключения файла test.c к main.c нужно в файле CMakeLists.txt прописать
 ```
-set(VAR Hello)
-message("${VAR} world!");
+include_directories(*путь до Inc*)
+```
+И в команде add_executable дописать
+```
+add_executable(MyApp main.c *Путь до файла с расширением .c (например /Src/test.c)*)
 ```
