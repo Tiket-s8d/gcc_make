@@ -1,3 +1,0 @@
-C:/Users/Tik/Documents/gcc_make/proj_cmake/Release/CMakeFiles/MyApp.dir
-C:/Users/Tik/Documents/gcc_make/proj_cmake/Release/CMakeFiles/edit_cache.dir
-C:/Users/Tik/Documents/gcc_make/proj_cmake/Release/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,16 @@
 cmake_minimum_required(VERSION 3.26)
 project(MyApp)
+
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/Inc)
+
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG${CMAKE_CURRENT_SOURCE_DIR}/Debug)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEAS ${CMAKE_CURRENT_SOURCE_DIR}/Release)
+
+execute_process(
+    COMMAND mkdir
+    WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/my_folder
+
+)
+
+
 add_executable(${PROJECT_NAME} main.c ${CMAKE_CURRENT_SOURCE_DIR}/Src/test.c)
