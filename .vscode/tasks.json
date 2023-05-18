@@ -1,86 +1,32 @@
 {
-    "version": "2.0.0",
     "tasks": [
         {
-            "type": "shell",
-            "label": "gcc: build one file",
-            "command": "gcc",
-            "args": [
-                "${file}","-g","-o","${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "${workspaceFolder}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-        }
-        ,{
-            "type": "shell",
-            "label": "gcc: Debug",
-            "command": "gcc",
-            "args": [
-                "-g","${file}","-I","${fileDirname}\\Inc\\","${fileDirname}\\Src\\*.c","-o","${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-           
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-        },{
-            "type": "shell",
-            "label": "gcc: Build",
-            "command": "gcc",
-            "args": [
-                "-static","${file}","-I","${fileDirname}\\Inc\\","${fileDirname}\\Src\\*.c","-o","${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-           
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-        },{
-            "type": "shell",
-            "label": "gcc: Build static lib",
-            "command": "gcc",
-            "args": [
-                "${file}","-L.","${fileDirname}\\Src\\*.a",
-            ],
-           
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-        },{
-            "type": "shell",
-            "label": "Cmake debug",
+            "type": "cppbuild",
+            "label": "Make debug version",
             "command": "cmake",
             "args": [
-                "--build","${fileDirname}\\Debug",
+                "--build",
+                "${workspaceFolder}\\Debug"
             ],
-           
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
+            "options": {
+                "cwd": "${fileDirname}"
             },
+            "group": "build"
+        },
+        {
+            "type": "cppbuild",
+            "label": "Make release version",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}\\Release"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "group": "build"
         },
         
-    
-    ]
+    ],
+    "version": "2.0.0"
 }
