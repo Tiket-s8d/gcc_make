@@ -64,6 +64,21 @@
                 "kind": "build",
                 "isDefault": true
             },
+        },{
+            "type": "shell",
+            "label": "Cmake debug",
+            "command": "cmake",
+            "args": [
+                "--build","${fileDirname}\\Debug",
+            ],
+           
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
         },
         
     
