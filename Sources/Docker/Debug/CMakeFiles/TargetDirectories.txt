@@ -1,0 +1,3 @@
+C:/Users/Tik/Documents/GitHub/gcc_make/Sources/Docker/Debug/CMakeFiles/MyApp.dir
+C:/Users/Tik/Documents/GitHub/gcc_make/Sources/Docker/Debug/CMakeFiles/edit_cache.dir
+C:/Users/Tik/Documents/GitHub/gcc_make/Sources/Docker/Debug/CMakeFiles/rebuild_cache.dir

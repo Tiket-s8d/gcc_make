@@ -1,0 +1,166 @@
+{
+  "main": {
+    "id": "2c8baa65157d155e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0151093f1739b8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ba6bb39838849bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sources/Docker/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7a8bda9969ad3248",
+    "type": "split",
+    "children": [
+      {
+        "id": "f05b15b04addf932",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1092789ccb34f672",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ee83b7f19545afb0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "956e6b51e5288143",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "23abe52bebb18fab",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4ce8a88e10d310f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8f2fa613d89ac4a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Sources/Docker/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dd675ad6adfc315e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Sources/Docker/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3179930d6ab79749",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d0c8fa238e448da4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Sources/Docker/README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5ba6bb39838849bd",
+  "lastOpenFiles": [
+    "Sources/Docker/Debug/MyApp.exe",
+    "Sources/Docker/Debug/CMakeFiles/MyApp.dir/objects.a",
+    "Sources/Docker/Debug/CMakeFiles/Progress/3",
+    "Sources/Docker/Debug/CMakeFiles/MyApp.dir/Src/binTree.c.obj",
+    "Sources/Docker/Debug/CMakeFiles/MyApp.dir/Src/binTree.c.obj.d",
+    "Sources/Docker/Debug/CMakeFiles/Progress/2",
+    "Sources/Docker/Debug/CMakeFiles/MyApp.dir/Src/main.c.obj",
+    "Sources/Docker/Debug/CMakeFiles/MyApp.dir/Src/main.c.obj.d",
+    "Sources/Docker/Debug/CMakeFiles/Progress/1",
+    "Sources/Docker/Debug/CMakeFiles/Progress/count.txt",
+    "Sources/Docker/Debug/CMakeFiles/Progress",
+    "Sources/compile_and_link/README.md",
+    "Sources/Docker/README.md",
+    "Sources/proj_cmake/README.md"
+  ]
+}
