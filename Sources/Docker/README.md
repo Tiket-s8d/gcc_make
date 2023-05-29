@@ -66,6 +66,40 @@ docker restart **имя/id контейнера**
 # Запуск отладка в контейнере
 
 ## Способ 1
-1. Запустить контейнер через коммандную строку или Docker Desktop
-2. Подключиться к данному контейнеру из VS Code с помошью расширения DevContainer
-## Способ 2
+1. Запустить контейнер через командную строку или Docker Desktop
+2. Подключиться к данному контейнеру из VS Code с помощью расширения DevContainer
+
+
+
+
+
+# Как выдать доступ к USB контейнеру
+
+## Выдача доступа к USB для WSL
+
+(2 команды ниже должны быть выполнены с правами администратора)
+1. Получить список устройств
+```
+usbipd wsl list
+```
+2. Выдать доступ к USB
+```
+usbipd wsl attach --busid *BUSID*
+```
+3. Запустить WSL и из  WSL запустить контейнер со следующими ключами
+```
+docker run -t -i --privileged -v /dev/bus/usb:/dev/bus/usb *id контейнера*
+```
+
+
+
+
+
+
+
+
+
+----
+Links:
+* https://learn.microsoft.com/ru-ru/windows/wsl/connect-usb
+* https://stackoverflow.com/questions/24225647/docker-a-way-to-give-access-to-a-host-usb-or-serial-device
