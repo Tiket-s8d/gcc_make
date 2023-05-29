@@ -1,0 +1,1 @@
+ST-LINK_gdbserver.exe -d -v -cp C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.0.600.202301161003\tools\bin

@@ -1,0 +1,17 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name":"gdb",
+			"type": "gdb", //Тип необходимо прописать согласно Native debug
+			"request": "attach", 
+			"executable": "./build/asdqwecvx.elf", // Где расположен вызываемый файл
+			"target": "localhost:61234", // Адрес и порт GDB сервера к которому будем подключаться
+			"remote": true,
+			"cwd": "${workspaceRoot}",
+			"gdbpath": "C:\\Users\\Tik\\Documents\\gcc-arm-none-eabi-10-2020-q4-major\\bin", // Путь до GDB
+			
+		}
+
+	]
+}
