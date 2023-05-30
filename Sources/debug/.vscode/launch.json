@@ -11,7 +11,34 @@
 			"cwd": "${workspaceRoot}",
 			"gdbpath": "C:\\Users\\Tik\\Documents\\gcc-arm-none-eabi-10-2020-q4-major\\bin", // Путь до GDB
 			
+		},{
+			"name": "Remote Debubg",
+			"preLaunchTask": "gdb server start",
+			"type": "gdb",
+			"request": "attach",
+			"executable": "./build/asdqwecvx.elf",
+			"target": "localhost:4242",
+			"remote": true,
+			"cwd": "${workspaceRoot}",
+			"gdbpath": "arm-none-eabi-gdb"
+		},{
+			"preLaunchTask": "build all",
+			"name": "STlink debug",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/asdqwecvx.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "stutil",
+            "device": "STM32F474RE",
+            "interface": "swd",
+            "runToMain": true, // else it starts at reset handler - not interested
+		},{
+			"name": "STlink Release",
+			"cwd": "${workspaceRoot}",
+			"preLaunchTask": "build all",
+
 		}
+
 
 	]
 }

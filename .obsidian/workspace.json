@@ -22,6 +22,12 @@
           {
             "id": "62f4f32431f7c7c1",
             "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.4"
+              }
+            }
           }
         ]
       }
@@ -152,19 +158,25 @@
   },
   "active": "5ba6bb39838849bd",
   "lastOpenFiles": [
-    "Sources/Docker/Debug/MyApp.exe",
-    "Sources/Docker/Debug/CMakeFiles/MyApp.dir/objects.a",
-    "Sources/Docker/Debug/CMakeFiles/Progress/3",
-    "Sources/Docker/Debug/CMakeFiles/MyApp.dir/Src/binTree.c.obj",
-    "Sources/Docker/Debug/CMakeFiles/MyApp.dir/Src/binTree.c.obj.d",
-    "Sources/Docker/Debug/CMakeFiles/Progress/2",
-    "Sources/Docker/Debug/CMakeFiles/MyApp.dir/Src/main.c.obj",
-    "Sources/Docker/Debug/CMakeFiles/MyApp.dir/Src/main.c.obj.d",
-    "Sources/Docker/Debug/CMakeFiles/Progress/1",
-    "Sources/Docker/Debug/CMakeFiles/Progress/count.txt",
-    "Sources/Docker/Debug/CMakeFiles/Progress",
-    "Sources/compile_and_link/README.md",
+    "Sources/debug/README.md",
     "Sources/Docker/README.md",
-    "Sources/proj_cmake/README.md"
+    "Sources/debug/Dockerfile",
+    "Sources/asdqwecvx/gdb_run.bat",
+    "Sources/compile_and_link/README.md",
+    "Sources/asdqwecvx/README.md",
+    "Sources/asdqwecvx/asdqwecvx/asdqwecvx.ioc",
+    "Sources/asdqwecvx/asdqwecvx",
+    "Sources/asdqwecvx/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Device/ARMCM4_FP/startup_ARMCM4.s",
+    "Sources/asdqwecvx/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Device/ARMCM4_FP/system_ARMCM4.c",
+    "Sources/asdqwecvx/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Device/ARMCM7_SP/startup_ARMCM7.c",
+    "Sources/asdqwecvx/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Device/ARMCM7_SP/system_ARMCM7.c",
+    "Sources/asdqwecvx/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Device/ARMCM7_SP/startup_ARMCM7.s",
+    "Sources/asdqwecvx/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Device/ARMCM3/startup_ARMCM3.s",
+    "Sources/proj_cmake/README.md",
+    "Задачки.md",
+    "Sources/STM/Как запустить STM 32.md",
+    "Sources/STM/ABI.md",
+    "Sources/HandMade/README.md",
+    "Untitled.canvas"
   ]
 }

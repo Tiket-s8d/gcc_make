@@ -2,6 +2,27 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "Build and push",
+            "type": "shell",
+            "command":"st-flash --connect-under-reset write /build/build/asdqwecvx.bin 0x8000000",
+            
+        },
+        
+
+        {
+            "label": "build all",
+            "type": "shell",
+            "command": "make",
+            "problemMatcher": [],
+            "dependsOn":["Build and push"]
+        },
+        {
+            "label": "gdb server start",
+            "type": "process",
+            "command": "st-util",
+            "args": ["-p","4242"]
+        },
+        {
             "label": "Build",
             "type": "shell",
             "group": "build",
