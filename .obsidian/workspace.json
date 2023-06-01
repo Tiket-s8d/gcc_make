@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sources/Docker/README.md",
+                "file": "Toolchain_settings/Cmake_ninja/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b9e32931273875a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sources/debug/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -29,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sources/Docker/README.md",
+                "file": "Sources/debug/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sources/Docker/README.md",
+                "file": "Sources/debug/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sources/Docker/README.md"
+                "file": "Sources/debug/README.md"
               }
             }
           }
@@ -156,13 +169,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ba6bb39838849bd",
+  "active": "2b9e32931273875a",
   "lastOpenFiles": [
+    "Sources/debug/build/main.o",
+    "Предложения.md",
+    "Toolchain_settings/Cmake_ninja/README.md",
+    "Sources/compile_and_link/README.md",
+    "Toolchain_settings/Cmake_ninja",
+    "Toolchain_settings/Untitled.md",
     "Sources/debug/README.md",
     "Sources/Docker/README.md",
     "Sources/debug/Dockerfile",
     "Sources/asdqwecvx/gdb_run.bat",
-    "Sources/compile_and_link/README.md",
     "Sources/asdqwecvx/README.md",
     "Sources/asdqwecvx/asdqwecvx/asdqwecvx.ioc",
     "Sources/asdqwecvx/asdqwecvx",
@@ -171,7 +189,6 @@
     "Sources/asdqwecvx/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Device/ARMCM7_SP/startup_ARMCM7.c",
     "Sources/asdqwecvx/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Device/ARMCM7_SP/system_ARMCM7.c",
     "Sources/asdqwecvx/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Device/ARMCM7_SP/startup_ARMCM7.s",
-    "Sources/asdqwecvx/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Device/ARMCM3/startup_ARMCM3.s",
     "Sources/proj_cmake/README.md",
     "Задачки.md",
     "Sources/STM/Как запустить STM 32.md",

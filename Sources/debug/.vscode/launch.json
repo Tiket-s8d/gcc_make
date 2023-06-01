@@ -2,43 +2,28 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name":"gdb",
-			"type": "gdb", //Тип необходимо прописать согласно Native debug
-			"request": "attach", 
-			"executable": "./build/asdqwecvx.elf", // Где расположен вызываемый файл
-			"target": "localhost:61234", // Адрес и порт GDB сервера к которому будем подключаться
-			"remote": true,
-			"cwd": "${workspaceRoot}",
-			"gdbpath": "C:\\Users\\Tik\\Documents\\gcc-arm-none-eabi-10-2020-q4-major\\bin", // Путь до GDB
-			
-		},{
+			"preLaunchTask": "SERver", // Тестовая версия на native-debug
 			"name": "Remote Debubg",
-			"preLaunchTask": "gdb server start",
 			"type": "gdb",
 			"request": "attach",
 			"executable": "./build/asdqwecvx.elf",
-			"target": "localhost:4242",
+			"target": "*:61234",
 			"remote": true,
 			"cwd": "${workspaceRoot}",
-			"gdbpath": "arm-none-eabi-gdb"
+			"gdbpath": "/usr/bin/arm-none-eabi-gdb",
+//			"debugger_args": ["set mi-async"]
 		},{
-			"preLaunchTask": "build all",
+			"preLaunchTask": "build all", // Покачто не рабочая версия на cortex-debug
 			"name": "STlink debug",
             "cwd": "${workspaceRoot}",
             "executable": "./build/asdqwecvx.elf",
             "request": "launch",
             "type": "cortex-debug",
-            "servertype": "stutil",
-            "device": "STM32F474RE",
+            "servertype": "stlink",
+            "device": "STM32G474RE",
             "interface": "swd",
             "runToMain": true, // else it starts at reset handler - not interested
-		},{
-			"name": "STlink Release",
-			"cwd": "${workspaceRoot}",
-			"preLaunchTask": "build all",
-
 		}
-
 
 	]
 }

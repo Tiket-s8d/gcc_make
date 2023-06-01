@@ -143,8 +143,6 @@ LIBS = -lc -lm -lnosys
 LIBDIR = 
 LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
 
-prog: $(BUILD_DIR)/$(TARGET).elf
-	openocd -f interface/stlink-v2.cfg -f target/stm32g4x.cfg -c "program build/$(TARGET).elf verify exit reset"
 # default action: build all
 all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET).bin
 
