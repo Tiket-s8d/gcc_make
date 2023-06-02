@@ -1,0 +1,5 @@
+{
+    "cortex-debug.stlinkPath.linux": "/home/tools/bin/ST-LINK_gdbserver",
+    "cortex-debug.stm32cubeprogrammer.linux": "/home/a/bin",
+    "cortex-debug.gdbPath.linux": "/usr/bin/arm-none-eabi-gdb"
+}
