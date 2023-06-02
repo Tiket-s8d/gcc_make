@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sources/debug/README.md",
+                "file": "Sources/debug/Dependencies.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sources/debug/README.md",
+                "file": "Sources/debug/Dependencies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sources/debug/README.md",
+                "file": "Sources/debug/Dependencies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sources/debug/README.md"
+                "file": "Sources/debug/Dependencies.md"
               }
             }
           }
@@ -171,13 +171,15 @@
   },
   "active": "2b9e32931273875a",
   "lastOpenFiles": [
+    "Sources/debug/1.sh",
+    "Sources/debug/README.md",
+    "Sources/debug/Dependencies.md",
     "Sources/debug/build/main.o",
     "Предложения.md",
     "Toolchain_settings/Cmake_ninja/README.md",
     "Sources/compile_and_link/README.md",
     "Toolchain_settings/Cmake_ninja",
     "Toolchain_settings/Untitled.md",
-    "Sources/debug/README.md",
     "Sources/Docker/README.md",
     "Sources/debug/Dockerfile",
     "Sources/asdqwecvx/gdb_run.bat",
@@ -188,7 +190,6 @@
     "Sources/asdqwecvx/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Device/ARMCM4_FP/system_ARMCM4.c",
     "Sources/asdqwecvx/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Device/ARMCM7_SP/startup_ARMCM7.c",
     "Sources/asdqwecvx/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Device/ARMCM7_SP/system_ARMCM7.c",
-    "Sources/asdqwecvx/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Device/ARMCM7_SP/startup_ARMCM7.s",
     "Sources/proj_cmake/README.md",
     "Задачки.md",
     "Sources/STM/Как запустить STM 32.md",

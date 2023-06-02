@@ -2,27 +2,25 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"preLaunchTask": "SERver", // Тестовая версия на native-debug
-			"name": "Remote Debubg",
-			"type": "gdb",
-			"request": "attach",
-			"executable": "./build/asdqwecvx.elf",
-			"target": "*:61234",
-			"remote": true,
-			"cwd": "${workspaceRoot}",
-			"gdbpath": "/usr/bin/arm-none-eabi-gdb",
-//			"debugger_args": ["set mi-async"]
-		},{
-			"preLaunchTask": "build all", // Покачто не рабочая версия на cortex-debug
-			"name": "STlink debug",
+			"name": "LINUX Stlink debug ",
             "cwd": "${workspaceRoot}",
-            "executable": "./build/asdqwecvx.elf",
-            "request": "launch",
+            "executable": "./build/${workspaceFolderBasename}.elf",
+            "type": "cortex-debug",
+            "servertype": "external",
+            "device": "STM32G474RE",
+            "interface": "swd",
+			"gdbTarget": "localhost:50000",
+			"request": "attach",
+			"preLaunchTask": "SERVER START LINUX",
+		},{
+			"name": "WINDOWS Stlink debug",
+			"cwd": "${workspaceRoot}",
+            "executable": "./build/${workspaceFolderBasename}.elf",
             "type": "cortex-debug",
             "servertype": "stlink",
             "device": "STM32G474RE",
             "interface": "swd",
-            "runToMain": true, // else it starts at reset handler - not interested
+			"request": "launch"
 		}
 
 	]

@@ -7,17 +7,15 @@
             "command":"st-flash --connect-under-reset write /build/build/asdqwecvx.bin 0x8000000",
             
         },
-        {
-            "label": "SERver",
-            "type": "shell",
-            "isBackground": true,
-            "command": "/home/tools/bin/ST-LINK_gdbserver -d -v -cp /home/a/bin"
-        },
+        
+  
 
+        
         {
-            "label": "build all",
+            "isBackground": true,
+            "label": "SERVER START LINUX",
             "type": "shell",
-            "command": "st-info --reset",
+            "command": "/build/gdb_run.sh",
             "problemMatcher": [],
         },
         {
@@ -33,18 +31,6 @@
             "command": "make",
             "problemMatcher": []
         },
-        {
-            "label": "Clean",
-            "type": "shell",
-            "group": "build",
-            "command": "make clean",
-            "problemMatcher": []
-        },
-        {
-            "label": "Write firmware",
-            "type": "shell",
-            "command": "make prog",
-            "problemMatcher": []
-        }
+
     ]
 }
