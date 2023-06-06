@@ -1,12 +1,8 @@
-FROM ubuntu:latest
-
-RUN  apt-get upgrade -y && apt-get update -y 
-RUN apt-get install cmake git gdb-multiarch stlink-tools gcc-arm-none-eabi -y
-RUN ln -s /usr/bin/gdb-multiarch /usr/bin/arm-none-eabi-gdb
-
-
+FROM tikets8d/bcc:latest
 
 
 COPY . /build
-
+RUN export SERV=/home/tools/bin
+RUN export DL=/home/a/bin
+    
 WORKDIR /build

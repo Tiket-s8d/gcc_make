@@ -119,3 +119,6 @@ Links
 * https://www.st.com/resource/en/user_manual/um2576-stm32cubeide-stlink-gdb-server-stmicroelectronics.pdf
 * https://crazygeeks.ru/stm32-linux-clion/
 * https://hub.docker.com/r/tikets8d/bcc - ссылка на docker образ в котором есть все что нужно 
+* https://code.visualstudio.com/docs/containers/docker-compose Невозможность отладить Си для МК
+* https://code.visualstudio.com/docs/containers/debug-common Невозможность отладить Си для МК
+* https://earthly.dev/blog/how-to-use-docker-in-vscode/ Невозможность отладить Си для МК

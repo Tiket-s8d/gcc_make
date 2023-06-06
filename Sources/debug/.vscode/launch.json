@@ -1,6 +1,7 @@
 {
 	"version": "0.2.0",
 	"configurations": [
+
 		{
 			"name": "LINUX Stlink debug ",
             "cwd": "${workspaceRoot}",
@@ -12,7 +13,10 @@
 			"gdbTarget": "localhost:50000",
 			"request": "attach",
 			"preLaunchTask": "SERVER START LINUX",
-		},{
+			
+			
+		},
+		{
 			"name": "WINDOWS Stlink debug",
 			"cwd": "${workspaceRoot}",
             "executable": "./build/${workspaceFolderBasename}.elf",
@@ -21,6 +25,16 @@
             "device": "STM32G474RE",
             "interface": "swd",
 			"request": "launch"
+		},
+
+		{
+			"name": "Docker",
+			"type": "docker",
+			"debugServer": 50000,
+			"request": "attach",
+			"preLaunchTask": "SERVER START LINUX",
+			"containerName": "e49928505ad3",
+			"platform": ""
 		}
 
 	]

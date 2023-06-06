@@ -2,22 +2,25 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "isBackground": true,
             "label": "Build and push",
             "type": "shell",
             "command":"st-flash --connect-under-reset write /build/build/asdqwecvx.bin 0x8000000",
             
         },
-        
-  
-
-        
         {
-            "isBackground": true,
+            "command":""
+        },
+        {
+ 
             "label": "SERVER START LINUX",
             "type": "shell",
-            "command": "/build/gdb_run.sh",
+            "command": "./Scripts/gdb_run.sh",
+            "isBackground": true,
+        
             "problemMatcher": [],
         },
+
         {
             "label": "gdb server start",
             "type": "process",
