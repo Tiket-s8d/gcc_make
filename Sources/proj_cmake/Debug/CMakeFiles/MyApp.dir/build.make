@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Tik\Documents\gcc_make\proj_cmake
+CMAKE_SOURCE_DIR = C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Tik\Documents\gcc_make\proj_cmake\Debug
+CMAKE_BINARY_DIR = C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\Debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MyApp.dir/depend.make
@@ -70,33 +70,33 @@ include CMakeFiles/MyApp.dir/flags.make
 
 CMakeFiles/MyApp.dir/main.c.obj: CMakeFiles/MyApp.dir/flags.make
 CMakeFiles/MyApp.dir/main.c.obj: CMakeFiles/MyApp.dir/includes_C.rsp
-CMakeFiles/MyApp.dir/main.c.obj: C:/Users/Tik/Documents/gcc_make/proj_cmake/main.c
+CMakeFiles/MyApp.dir/main.c.obj: C:/Users/Tik/Documents/GitHub/gcc_make/Sources/proj_cmake/main.c
 CMakeFiles/MyApp.dir/main.c.obj: CMakeFiles/MyApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tik\Documents\gcc_make\proj_cmake\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/MyApp.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MyApp.dir/main.c.obj -MF CMakeFiles\MyApp.dir\main.c.obj.d -o CMakeFiles\MyApp.dir\main.c.obj -c C:\Users\Tik\Documents\gcc_make\proj_cmake\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/MyApp.dir/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MyApp.dir/main.c.obj -MF CMakeFiles\MyApp.dir\main.c.obj.d -o CMakeFiles\MyApp.dir\main.c.obj -c C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\main.c
 
 CMakeFiles/MyApp.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MyApp.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tik\Documents\gcc_make\proj_cmake\main.c > CMakeFiles\MyApp.dir\main.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\main.c > CMakeFiles\MyApp.dir\main.c.i
 
 CMakeFiles/MyApp.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyApp.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tik\Documents\gcc_make\proj_cmake\main.c -o CMakeFiles\MyApp.dir\main.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\main.c -o CMakeFiles\MyApp.dir\main.c.s
 
 CMakeFiles/MyApp.dir/Src/test.c.obj: CMakeFiles/MyApp.dir/flags.make
 CMakeFiles/MyApp.dir/Src/test.c.obj: CMakeFiles/MyApp.dir/includes_C.rsp
-CMakeFiles/MyApp.dir/Src/test.c.obj: C:/Users/Tik/Documents/gcc_make/proj_cmake/Src/test.c
+CMakeFiles/MyApp.dir/Src/test.c.obj: C:/Users/Tik/Documents/GitHub/gcc_make/Sources/proj_cmake/Src/test.c
 CMakeFiles/MyApp.dir/Src/test.c.obj: CMakeFiles/MyApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tik\Documents\gcc_make\proj_cmake\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/MyApp.dir/Src/test.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MyApp.dir/Src/test.c.obj -MF CMakeFiles\MyApp.dir\Src\test.c.obj.d -o CMakeFiles\MyApp.dir\Src\test.c.obj -c C:\Users\Tik\Documents\gcc_make\proj_cmake\Src\test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/MyApp.dir/Src/test.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MyApp.dir/Src/test.c.obj -MF CMakeFiles\MyApp.dir\Src\test.c.obj.d -o CMakeFiles\MyApp.dir\Src\test.c.obj -c C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\Src\test.c
 
 CMakeFiles/MyApp.dir/Src/test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MyApp.dir/Src/test.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tik\Documents\gcc_make\proj_cmake\Src\test.c > CMakeFiles\MyApp.dir\Src\test.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\Src\test.c > CMakeFiles\MyApp.dir\Src\test.c.i
 
 CMakeFiles/MyApp.dir/Src/test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyApp.dir/Src/test.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tik\Documents\gcc_make\proj_cmake\Src\test.c -o CMakeFiles\MyApp.dir\Src\test.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\Src\test.c -o CMakeFiles\MyApp.dir\Src\test.c.s
 
 # Object files for target MyApp
 MyApp_OBJECTS = \
@@ -112,7 +112,7 @@ MyApp.exe: CMakeFiles/MyApp.dir/build.make
 MyApp.exe: CMakeFiles/MyApp.dir/linkLibs.rsp
 MyApp.exe: CMakeFiles/MyApp.dir/objects1.rsp
 MyApp.exe: CMakeFiles/MyApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Tik\Documents\gcc_make\proj_cmake\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable MyApp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable MyApp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MyApp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/MyApp.dir/clean:
 .PHONY : CMakeFiles/MyApp.dir/clean
 
 CMakeFiles/MyApp.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Tik\Documents\gcc_make\proj_cmake C:\Users\Tik\Documents\gcc_make\proj_cmake C:\Users\Tik\Documents\gcc_make\proj_cmake\Debug C:\Users\Tik\Documents\gcc_make\proj_cmake\Debug C:\Users\Tik\Documents\gcc_make\proj_cmake\Debug\CMakeFiles\MyApp.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\Debug C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\Debug C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\Debug\CMakeFiles\MyApp.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MyApp.dir/depend
 

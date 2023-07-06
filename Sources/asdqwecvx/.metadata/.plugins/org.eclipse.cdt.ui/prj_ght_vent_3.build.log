@@ -1,0 +1,5 @@
+17:23:47 **** Clean-only build of configuration Debug for project prj_ght_vent_3 ****
+make -j8 clean 
+
+17:23:50 Build Finished. 0 errors, 0 warnings. (took 2s.713ms)
+

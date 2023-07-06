@@ -1,0 +1,8 @@
+
+int main(){
+
+    int x =0;
+    long b = 45;
+    long z = x+b;
+    return 0;
+}

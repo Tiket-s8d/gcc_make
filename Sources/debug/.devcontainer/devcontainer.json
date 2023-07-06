@@ -1,7 +1,7 @@
 {
 
     // path to Docker image
-    "image": "e49928505ad3",
+    "image": "756e59a59107",
     "privileged": true,
     "runArgs": ["-v", "/dev/bus/usb:/dev/bus/usb","--rm"],
     "initializeCommand":[".\\Scripts\\wsl_run.bat"]

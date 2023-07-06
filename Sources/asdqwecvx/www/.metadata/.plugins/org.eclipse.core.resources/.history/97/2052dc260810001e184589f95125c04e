@@ -1,0 +1,9 @@
+#include "mainc.h"
+
+int main(){
+    HAL_Init();
+    long x = _IQatan2(2,2);
+    long b = 45;
+    long z = x+b;
+    return 0;
+}

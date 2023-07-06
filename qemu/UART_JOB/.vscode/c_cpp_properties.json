@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Job",
+            "compilerPath": "arm-none-eabi-gcc",
+            "includePath": [
+                "${workspaceRoot}/**"
+            ],
+            "defines": [
+                "DEBUG",
+                "USE_FULL_LL_DRIVER",
+                "USE_HAL_DRIVER",
+                "STM32F407xx",
+                "USART=1"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

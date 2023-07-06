@@ -1,6 +1,5 @@
 BUSID  VID:PID    DEVICE                                                        STATE
 1-2    046d:c083  USB-устройство ввода                                          Not attached
-1-4    0483:374e  ST-Link Debug, Запоминающее устройство для USB, STMicroel...  Attached - Ubuntu
 2-2    13d3:3530  Realtek Bluetooth Adapter                                     Not attached
 2-3    13d3:56a2  USB2.0 HD UVC WebCam                                          Not attached
 

@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "cmake --build ${workspaceRoot}/STM32F4XX/prj_ght_vent_3/test/bin/Debug --parallel 4",
+        },
+        {
+            "label": "make clean",
+            "type": "shell",
+            "command": "cmake --build ${workspaceRoot}/STM32F4XX/prj_ght_vent_3/test/bin/Debug --clean-first --parallel 4",
+        },
+        {
+            "label": "start script",
+            "type":"shell",
+            "command": "bash script.sh"
+        },
+
+    ]
+}

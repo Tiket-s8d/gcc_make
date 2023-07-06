@@ -8,9 +8,7 @@
             "command":"st-flash --connect-under-reset write /build/build/asdqwecvx.bin 0x8000000",
             
         },
-        {
-            "command":""
-        },
+
         {
  
             "label": "SERVER START LINUX",

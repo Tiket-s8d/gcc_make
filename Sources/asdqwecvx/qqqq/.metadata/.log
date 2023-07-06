@@ -1,0 +1,79 @@
+!SESSION 2023-06-17 10:35:34.038 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  C:\Users\Tik\stm\ws2812b\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\Tik\stm\ws2812b\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-06-17 10:36:11.921
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-06-17 10:36:11.935
+!MESSAGE Log4j2 initialized with config file C:\Users\Tik\Documents\GitHub\gcc_make\Sources\asdqwecvx\qqqq\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-06-17 10:36:16.750
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-17 10:36:35.690
+!MESSAGE Indexed 'ws2812b' (512 sources, 255 headers) in 15,7 sec: 33 510 declarations; 333 799 references; 29 unresolved inclusions; 260 syntax errors; 6 747 unresolved names (1,8 %)
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2023-06-17 10:41:34.890
+!MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\Users\Tik\AppData\Local\Temp\STM32CubeIDE_e922c596-7507-4321-a14e-cffa98e75317
+!SESSION 2023-06-17 10:41:46.099 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  C:\Users\Tik\stm\ws2812b\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/Users/Tik/Documents/GitHub/gcc_make/Sources/asdqwecvx/qqqq/ C:\Users\Tik\stm\ws2812b\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-06-17 10:41:54.331
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-06-17 10:41:54.334
+!MESSAGE Log4j2 initialized with config file C:\Users\Tik\Documents\GitHub\gcc_make\Sources\asdqwecvx\qqqq\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-06-17 10:42:01.642
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 368 2023-06-17 10:42:09.425
+!MESSAGE Resource '/ws2812b' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/ws2812b' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1021)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1113)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter$ProjectOperation.execute(MCUProjectImporter.java:189)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-17 10:42:12.235
+!MESSAGE Indexed 'ws2812b' (19 sources, 78 headers) in 2,38 sec: 4 832 declarations; 28 600 references; 6 unresolved inclusions; 65 syntax errors; 901 unresolved names (2,6 %)
+
+!ENTRY org.eclipse.core.resources 4 368 2023-06-17 10:42:13.867
+!MESSAGE Resource '/ws2812b' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/ws2812b' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1021)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1113)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter$ProjectOperation.execute(MCUProjectImporter.java:189)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-17 10:42:26.332
+!MESSAGE Indexed 'ws2812b' (512 sources, 304 headers) in 12,1 sec: 36 924 declarations; 338 062 references; 23 unresolved inclusions; 259 syntax errors; 6 537 unresolved names (1,7 %)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2023-06-17 13:35:40.763
+!MESSAGE Won't launch debug session since we failed to locate the binary.

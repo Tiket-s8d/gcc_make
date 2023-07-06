@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Tik\Documents\gcc_make\proj_cmake
+CMAKE_SOURCE_DIR = C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Tik\Documents\gcc_make\proj_cmake\Debug
+CMAKE_BINARY_DIR = C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Tik\Documents\gcc_make\proj_cmake\Debug\CMakeFiles C:\Users\Tik\Documents\gcc_make\proj_cmake\Debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\Debug\CMakeFiles C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\Debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Tik\Documents\gcc_make\proj_cmake\Debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Tik\Documents\GitHub\gcc_make\Sources\proj_cmake\Debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

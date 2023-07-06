@@ -1,0 +1,47 @@
+13:35:37 **** Incremental Build of configuration Debug for project ws2812b ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../../Inc -I../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../../Inc -I../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/stm32f1xx_hal_msp.d" -MT"Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../../Inc -I../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../../Inc -I../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/system_stm32f1xx.d" -MT"Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/system_stm32f1xx.o"
+arm-none-eabi-gcc "../Src/ws28.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../../Inc -I../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/ws28.d" -MT"Src/ws28.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/ws28.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/RTOS2/Template/cmsis_os1.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../../Inc -I../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/RTOS2/Template/cmsis_os1.d" -MT"Drivers/CMSIS/RTOS2/Template/cmsis_os1.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/CMSIS/RTOS2/Template/cmsis_os1.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/RTOS2/Source/os_systick.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../../Inc -I../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/RTOS2/Source/os_systick.d" -MT"Drivers/CMSIS/RTOS2/Source/os_systick.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/CMSIS/RTOS2/Source/os_systick.o"
+arm-none-eabi-gcc "../Drivers/CMSIS/RTOS2/Source/os_tick_gtim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../../Inc -I../../Drivers/STM32F1xx_HAL_Driver/Inc -I../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/CMSIS/RTOS2/Source/os_tick_gtim.d" -MT"Drivers/CMSIS/RTOS2/Source/os_tick_gtim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/CMSIS/RTOS2/Source/os_tick_gtim.o"
+../Src/ws28.c: In function 'test':
+../Src/ws28.c:6:5: warning: implicit declaration of function 'HAL_GPIO_TogglePin' [-Wimplicit-function-declaration]
+    6 |     HAL_GPIO_TogglePin(GPIOA,LED_Pin);
+      |     ^~~~~~~~~~~~~~~~~~
+../Src/ws28.c:6:24: error: 'GPIOA' undeclared (first use in this function)
+    6 |     HAL_GPIO_TogglePin(GPIOA,LED_Pin);
+      |                        ^~~~~
+../Src/ws28.c:6:24: note: each undeclared identifier is reported only once for each function it appears in
+../Src/ws28.c:6:30: error: 'LED_Pin' undeclared (first use in this function)
+    6 |     HAL_GPIO_TogglePin(GPIOA,LED_Pin);
+      |                              ^~~~~~~
+make: *** [Src/subdir.mk:27: Src/ws28.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../Drivers/CMSIS/RTOS2/Template/cmsis_os1.c:28:
+../Drivers/CMSIS/RTOS2/Template/cmsis_os.h:157:10: fatal error: cmsis_os2.h: No such file or directory
+  157 | #include "cmsis_os2.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+../Src/main.c: In function 'ws2812_test01':
+../Src/main.c:423:5: warning: implicit declaration of function 'ws2812_light' [-Wimplicit-function-declaration]
+  423 |     ws2812_light();
+      |     ^~~~~~~~~~~~
+../Drivers/CMSIS/RTOS2/Source/os_systick.c:25:10: fatal error: os_tick.h: No such file or directory
+   25 | #include "os_tick.h"
+      |          ^~~~~~~~~~~
+compilation terminated.
+../Drivers/CMSIS/RTOS2/Source/os_tick_gtim.c:25:10: fatal error: os_tick.h: No such file or directory
+   25 | #include "os_tick.h"
+      |          ^~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/CMSIS/RTOS2/Source/subdir.mk:25: Drivers/CMSIS/RTOS2/Source/os_systick.o] Error 1
+make: *** [Drivers/CMSIS/RTOS2/Template/subdir.mk:19: Drivers/CMSIS/RTOS2/Template/cmsis_os1.o] Error 1
+make: *** [Drivers/CMSIS/RTOS2/Source/subdir.mk:25: Drivers/CMSIS/RTOS2/Source/os_tick_gtim.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+13:35:40 Build Failed. 10 errors, 2 warnings. (took 2s.702ms)
+

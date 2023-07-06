@@ -1,9 +1,4 @@
-
-
-
 setlocal enabledelayedexpansion
-set busid_to_match="1-2"
-
 
 usbipd wsl list > test.txt
 for /F "delims=" %%a in ('find "ST" test.txt') do (

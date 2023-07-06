@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Tik/Documents/gcc_make/proj_cmake/Src/test.c" "CMakeFiles/MyApp.dir/Src/test.c.obj" "gcc" "CMakeFiles/MyApp.dir/Src/test.c.obj.d"
-  "C:/Users/Tik/Documents/gcc_make/proj_cmake/main.c" "CMakeFiles/MyApp.dir/main.c.obj" "gcc" "CMakeFiles/MyApp.dir/main.c.obj.d"
+  "C:/Users/Tik/Documents/GitHub/gcc_make/Sources/proj_cmake/Src/test.c" "CMakeFiles/MyApp.dir/Src/test.c.obj" "gcc" "CMakeFiles/MyApp.dir/Src/test.c.obj.d"
+  "C:/Users/Tik/Documents/GitHub/gcc_make/Sources/proj_cmake/main.c" "CMakeFiles/MyApp.dir/main.c.obj" "gcc" "CMakeFiles/MyApp.dir/main.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
