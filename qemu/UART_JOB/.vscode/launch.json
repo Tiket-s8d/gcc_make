@@ -7,20 +7,20 @@
             "executable": "C:/Users/Tik/stm/UART_JOB/build/UART_JOB.elf",
             "request": "launch",
             "servertype": "qemu",
-            "device": "stm32F405",
-            "machine": "netduinoplus2",
+            "device": "STM32F4VG",
+            "machine": "STM32F4-Discovery",
             "runToEntryPoint" : "main",
             "showDevDebugOutput":"vscode",
             "gdbTarget": "localhost:50000",
             "cpu": "cortex-m4",
-            "serverArgs": ["-m","512M","-serial","tcp:localhost:7777,server","-serial","tcp:localhost:7778,server"]
+            "serverArgs": ["-m","512M","-serial","stdio","-monitor","none","-device","spi-bus,id=spi0"]
         },
 
         {
             "name": "Cortex Debug",
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "",
-            "executable": "C:/Users/Tik/stm/UART_JOB/build/UART_JOB.elf",
+            "executable": "C:/Users/Tik/stm/UART_JOB/test/bin/main_prj.elf",
             "preRestartCommands" : [ "load", "enable breakpoint", "monitor reset" ],
             "request": "launch",
             "type": "cortex-debug",
