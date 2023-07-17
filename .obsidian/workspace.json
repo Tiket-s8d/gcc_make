@@ -4,59 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "b0151093f1739b8c",
+        "id": "9ccaf0ae39ac9469",
         "type": "tabs",
         "children": [
           {
-            "id": "be16c46c9956bdfd",
+            "id": "1253e8cf06d73e97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Что нашел интересного.md",
+                "file": "Renode landing page.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "bee9143543b840b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ce12886c9d03629",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "renode vs qemu.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "51fac5dc5e219c1c",
+            "id": "71b4a6e46195f66b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "qemu.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f718d9f51acaee15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Что происходило.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24909d3fffe2988c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06.07.23.md",
+                "file": "QEMU landing page.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "23abe52bebb18fab",
@@ -122,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06.07.23.md",
+                "file": "Renode landing page.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06.07.23.md",
+                "file": "Renode landing page.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06.07.23.md"
+                "file": "Renode landing page.md"
               }
             }
           }
@@ -183,29 +178,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24909d3fffe2988c",
+  "active": "1253e8cf06d73e97",
   "lastOpenFiles": [
-    "qemu/UART_JOB/test/CMakeFiles/MyApp.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.su",
-    "qemu/UART_JOB/test/CMakeFiles/MyApp.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.su",
-    "qemu/UART_JOB/test/CMakeFiles/MyApp.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.su",
-    "qemu/UART_JOB/test/CMakeFiles/MyApp.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.su",
-    "qemu/UART_JOB/test/CMakeFiles/MyApp.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.su",
-    "qemu/UART_JOB/test/CMakeFiles/MyApp.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.su",
-    "qemu/UART_JOB/test/CMakeFiles/MyApp.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.su",
-    "qemu/UART_JOB/test/CMakeFiles/MyApp.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.su",
-    "qemu/UART_JOB/test/CMakeFiles/MyApp.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.su",
-    "qemu/UART_JOB/test/CMakeFiles/MyApp.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.su",
-    "qemu/UART_JOB/test/CMakeFiles/MyApp.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.su",
-    "Что нашел интересного.md",
-    "скрипт.md",
-    "Что происходило.md",
-    "CMAKE.md",
+    "emulations/renode",
+    "emulations/Новая папка",
+    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM7_SP/RTE_Components.h",
+    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM4_FP/RTE_Components.h",
+    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM3/RTE_Components.h",
+    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM0/RTE_Components.h",
+    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/Compiler/EventRecorderConf.h",
+    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM4_FP/RTE_Components.h",
+    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM7_SP/RTE_Components.h",
+    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM3/RTE_Components.h",
+    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM0/RTE_Components.h",
+    "QEMU landing page.md",
+    "Renode landing page.md",
+    "renode vs qemu.md",
+    "Pasted image 20230714094729.png",
+    "12.07.23 (Конфигурационный файл для настройки ВМ qemu).md",
     "qemu.md",
-    "06.07.23.md",
+    "Что происходило.md",
+    "11.07.23 (Как запустить периферию в QEMU (Не работает)).md",
+    "23.06.23 (Удачная сборка CMake).md",
+    "CMAKE.md",
+    "Что нашел интересного.md",
+    "Все.md",
+    "10.07.23 (Эмуляция периферии в QEMU для stm32).md",
     "05.07.23.md",
-    "Untitled.canvas",
     "Пошаговая инструкция.md",
-    "23.06.23.md",
+    "06.07.23 (Передача по UART).md",
+    "скрипт.md",
+    "Untitled.canvas",
     "16.06.23.md",
     "20.06.23.md",
     "21.06.23.md",
@@ -214,12 +217,6 @@
     "Sources/compile_and_link/README.md",
     "Toolchain_settings/Cmake_ninja/README.md",
     "Sources/debug/README.md",
-    "Sources/debug/Dependencies.md",
-    "Toolchain_settings/Untitled.md",
-    "Sources/asdqwecvx/README.md",
-    "Sources/proj_cmake/README.md",
-    "Sources/STM/Как запустить STM 32.md",
-    "Sources/STM/ABI.md",
-    "Sources/HandMade/README.md"
+    "Sources/debug/Dependencies.md"
   ]
 }
