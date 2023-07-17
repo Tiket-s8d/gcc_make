@@ -13,44 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Renode landing page.md",
+                "file": "emulations/qemu/QEMU.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ]
-      },
-      {
-        "id": "bee9143543b840b3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1ce12886c9d03629",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "renode vs qemu.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71b4a6e46195f66b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "QEMU landing page.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "23abe52bebb18fab",
@@ -117,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Renode landing page.md",
+                "file": "emulations/qemu/QEMU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Renode landing page.md",
+                "file": "emulations/qemu/QEMU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Renode landing page.md"
+                "file": "emulations/qemu/QEMU.md"
               }
             }
           }
@@ -180,6 +148,28 @@
   },
   "active": "1253e8cf06d73e97",
   "lastOpenFiles": [
+    "qemu.md",
+    "emulations/qemu/QEMU.md",
+    "emulations/qemu/UART_JOB/Untitled.md",
+    "QEMU landing page.md",
+    "emulations/qemu/qemu_commands.md",
+    "emulations/qemu/UART_JOB/qemu.md",
+    "16.06.23.md",
+    "12.07.23 (Конфигурационный файл для настройки ВМ qemu).md",
+    "11.07.23 (Как запустить периферию в QEMU (Не работает)).md",
+    "10.07.23 (Эмуляция периферии в QEMU для stm32).md",
+    "06.07.23 (Передача по UART).md",
+    "06.07.23.md",
+    "05.07.23.md",
+    "Untitled.md",
+    "Untitled.canvas",
+    "Untitled 1.md",
+    "CMAKE.md",
+    "Pasted image 20230714094729.png",
+    "renode vs qemu.md",
+    "Все.md",
+    "Renode landing page.md",
+    "emulations/renode",
     "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM7_SP/RTE_Components.h",
     "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM4_FP/RTE_Components.h",
     "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Compiler/EventRecorderConf.h",
@@ -189,34 +179,12 @@
     "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM3/RTE_Components.h",
     "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM4_FP/RTE_Components.h",
     "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM0/RTE_Components.h",
-    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/Compiler/EventRecorderConf.h",
-    "emulations/qemu/UART_JOB/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/iar/linker/stm32f479xx_sram.icf",
-    "Pasted image 20230714094729.png",
     "Что происходило.md",
     "23.06.23.md",
-    "06.07.23.md",
-    "QEMU landing page.md",
-    "Renode landing page.md",
-    "renode vs qemu.md",
-    "12.07.23 (Конфигурационный файл для настройки ВМ qemu).md",
-    "qemu.md",
-    "11.07.23 (Как запустить периферию в QEMU (Не работает)).md",
     "23.06.23 (Удачная сборка CMake).md",
-    "CMAKE.md",
     "Что нашел интересного.md",
-    "Все.md",
-    "10.07.23 (Эмуляция периферии в QEMU для stm32).md",
-    "05.07.23.md",
     "Пошаговая инструкция.md",
-    "06.07.23 (Передача по UART).md",
     "скрипт.md",
-    "Untitled.canvas",
-    "16.06.23.md",
-    "20.06.23.md",
-    "21.06.23.md",
-    "Задачки.md",
-    "Sources/Docker/README.md",
-    "Sources/compile_and_link/README.md",
-    "Toolchain_settings/Cmake_ninja/README.md"
+    "20.06.23.md"
   ]
 }
