@@ -13,7 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "emulations/qemu/QEMU.md",
+                "file": "emulations/renode/RENODE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c575ef9a6ede0ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "emulations/renode/renode_commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "ac86d8d5c3dd2136",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "803dae4c626690b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "emulations/qemu/qemu_commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "emulations/qemu/QEMU.md",
+                "file": "emulations/renode/renode_commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "emulations/qemu/QEMU.md",
+                "file": "emulations/renode/renode_commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "emulations/qemu/QEMU.md"
+                "file": "emulations/renode/renode_commands.md"
               }
             }
           }
@@ -146,13 +177,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1253e8cf06d73e97",
+  "active": "9c575ef9a6ede0ec",
   "lastOpenFiles": [
-    "qemu.md",
+    "emulations/qemu/qemu_commands.md",
+    "emulations/renode/renode_commands.md",
+    "emulations/renode/RENODE.md",
     "emulations/qemu/QEMU.md",
+    "Renode landing page.md",
+    "qemu.md",
     "emulations/qemu/UART_JOB/Untitled.md",
     "QEMU landing page.md",
-    "emulations/qemu/qemu_commands.md",
     "emulations/qemu/UART_JOB/qemu.md",
     "16.06.23.md",
     "12.07.23 (Конфигурационный файл для настройки ВМ qemu).md",
@@ -168,7 +202,6 @@
     "Pasted image 20230714094729.png",
     "renode vs qemu.md",
     "Все.md",
-    "Renode landing page.md",
     "emulations/renode",
     "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM7_SP/RTE_Components.h",
     "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM4_FP/RTE_Components.h",
@@ -183,8 +216,6 @@
     "23.06.23.md",
     "23.06.23 (Удачная сборка CMake).md",
     "Что нашел интересного.md",
-    "Пошаговая инструкция.md",
-    "скрипт.md",
-    "20.06.23.md"
+    "Пошаговая инструкция.md"
   ]
 }
