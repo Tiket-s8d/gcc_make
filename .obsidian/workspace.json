@@ -9,24 +9,12 @@
         "dimension": 49.91212653778559,
         "children": [
           {
-            "id": "9c575ef9a6ede0ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "emulations/qemu/QEMU functional.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d66161511a3c3fca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "emulations/qemu/QEMU commands.md",
+                "file": "emulations/qemu/QEMU functional.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,14 +26,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "emulations/qemu/QEMU functional.md",
+                "file": "emulations/qemu/QEMU landing page.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "7a7a8fdf8320a849",
@@ -127,7 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 200
   },
   "right": {
     "id": "23abe52bebb18fab",
@@ -143,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "emulations/renode/Renode functional.md",
+                "file": "emulations/qemu/QEMU functional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "emulations/renode/Renode functional.md",
+                "file": "emulations/qemu/QEMU functional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "emulations/renode/Renode functional.md"
+                "file": "emulations/qemu/QEMU functional.md"
               }
             }
           }
@@ -204,13 +191,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "16a547fc5614db39",
+  "active": "d66161511a3c3fca",
   "lastOpenFiles": [
-    "emulations/renode/Renode commands.md",
     "emulations/renode/Renode functional.md",
-    "emulations/renode/Renode landing page.md",
     "emulations/qemu/QEMU functional.md",
     "emulations/qemu/QEMU commands.md",
+    "emulations/qemu/QEMU landing page.md",
+    "emulations/renode/Renode commands.md",
+    "emulations/renode/Renode landing page.md",
     "emulations/renode/img/report_passed.png",
     "emulations/renode/img/report_passed.png.crdownload",
     "emulations/renode/img/log_passed.png",
@@ -223,7 +211,6 @@
     "emulations/renode/UART_JOB/STM32F407VGTx_FLASH.ld",
     "emulations/renode/UART_JOB/Makefile",
     "emulations/renode/UART_JOB/build/stm32f4xx_hal_rcc_ex.d",
-    "emulations/qemu/QEMU landing page.md",
     "Renode landing page.md",
     "qemu.md",
     "emulations/qemu/UART_JOB/Untitled.md",
