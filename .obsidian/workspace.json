@@ -155,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "emulations/renode/Renode commands.md",
+                "file": "emulations/qemu/QEMU functional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "emulations/renode/Renode commands.md",
+                "file": "emulations/qemu/QEMU functional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "emulations/renode/Renode commands.md"
+                "file": "emulations/qemu/QEMU functional.md"
               }
             }
           }
@@ -216,8 +216,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4020eb5b8c249224",
+  "active": "bf2b2884982b57f0",
   "lastOpenFiles": [
+    "emulations/renode/Renode commands.md",
+    "emulations/renode/img/report_passed.png",
+    "emulations/renode/img/report_passed.png.crdownload",
+    "emulations/renode/img/log_passed.png",
+    "emulations/renode/img/log_passed.png.crdownload",
+    "emulations/renode/img",
+    "emulations/renode/Новая папка",
     "emulations/renode/Renode landing page.md",
     "emulations/qemu/QEMU functional.md",
     "emulations/renode/UART_JOB/build/stm32f4xx_hal_pwr_ex.o",
@@ -226,13 +233,8 @@
     "emulations/renode/UART_JOB/STM32F407VGTx_FLASH.ld",
     "emulations/renode/UART_JOB/Makefile",
     "emulations/renode/UART_JOB/build/stm32f4xx_hal_rcc_ex.d",
-    "emulations/renode/UART_JOB/build/stm32f4xx_hal_rcc.d",
-    "emulations/renode/UART_JOB/build/stm32f4xx_hal_pwr_ex.d",
-    "emulations/renode/UART_JOB/build/stm32f4xx_hal_pwr.d",
-    "emulations/renode/UART_JOB/stm32f4.repl",
     "emulations/renode/Renode functional.md",
     "emulations/qemu/QEMU commands.md",
-    "emulations/renode/Renode commands.md",
     "emulations/qemu/QEMU landing page.md",
     "Renode landing page.md",
     "qemu.md",
