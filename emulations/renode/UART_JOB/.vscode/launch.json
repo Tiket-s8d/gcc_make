@@ -1,0 +1,39 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "QEMU",
+            "type": "cortex-debug",
+            "executable": "C:/Users/Tik/stm/UART_JOB/build/UART_JOB.elf",
+            "request": "launch",
+            "servertype": "qemu",
+            "device": "STM32F4VG",
+            "machine": "STM32F4-Discovery",
+            "runToEntryPoint" : "main",
+            "showDevDebugOutput":"vscode",
+            "gdbTarget": "localhost:50000",
+            "cpu": "cortex-m4",
+            "serverArgs": ["-m","512M","-serial","stdio","-monitor","none","-device","spi-bus,id=spi0"]
+        },
+
+        {
+            "name": "Cortex Debug",
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "",
+            "executable": "C:/Users/Tik/stm/UART_JOB/test/bin/main_prj.elf",
+            "preRestartCommands" : [ "load", "enable breakpoint", "monitor reset" ],
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "device": "STM32F407VG",
+            "runToEntryPoint" : "main",
+            "configFiles": [
+                "interface/stlink.cfg",// прописать расположение конфигов (если не контейнер)
+                "target/stm32f4x.cfg"
+            ],
+
+
+        },
+        
+    ]
+}

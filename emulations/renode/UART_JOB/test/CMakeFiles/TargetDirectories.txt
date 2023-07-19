@@ -1,0 +1,3 @@
+C:/Users/Tik/stm/UART_JOB/test/CMakeFiles/main_prj.dir
+C:/Users/Tik/stm/UART_JOB/test/CMakeFiles/edit_cache.dir
+C:/Users/Tik/stm/UART_JOB/test/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,13 @@
+using sysbus
+
+mach create "Transmit"
+machine LoadPlatformDescription @C:\Users\Tik\Documents\GitHub\gcc_make\emulations\renode\UART_JOB\stm32f4.repl
+
+$elf?=@C:\Users\Tik\Documents\GitHub\gcc_make\emulations\renode\UART_JOB\build\UART_JOB.elf
+$app?=@C:\Users\Tik\Documents\GitHub\gcc_make\emulations\renode\UART_JOB\build\UART_JOB.bin
+
+
+showAnalyzer sysbus.usart1
+
+    sysbus LoadELF $elf
+    sysbus LoadBinary $app 0x08030000

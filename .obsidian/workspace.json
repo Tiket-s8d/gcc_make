@@ -4,53 +4,92 @@
     "type": "split",
     "children": [
       {
-        "id": "9ccaf0ae39ac9469",
+        "id": "ac86d8d5c3dd2136",
         "type": "tabs",
+        "dimension": 49.91212653778559,
         "children": [
-          {
-            "id": "1253e8cf06d73e97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "emulations/renode/RENODE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "9c575ef9a6ede0ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "emulations/renode/renode_commands.md",
+                "file": "emulations/qemu/QEMU functional.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d66161511a3c3fca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "emulations/qemu/QEMU commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf2b2884982b57f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "emulations/qemu/QEMU functional.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
-        "id": "ac86d8d5c3dd2136",
+        "id": "7a7a8fdf8320a849",
         "type": "tabs",
+        "dimension": 50.08787346221442,
         "children": [
           {
-            "id": "803dae4c626690b3",
+            "id": "8a53eac7cfc42e15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "emulations/qemu/qemu_commands.md",
+                "file": "emulations/renode/Renode landing page.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16a547fc5614db39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "emulations/renode/Renode functional.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4020eb5b8c249224",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "emulations/renode/Renode commands.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 353.5
   },
   "right": {
     "id": "23abe52bebb18fab",
@@ -116,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "emulations/renode/renode_commands.md",
+                "file": "emulations/renode/Renode commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "emulations/renode/renode_commands.md",
+                "file": "emulations/renode/Renode commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "emulations/renode/renode_commands.md"
+                "file": "emulations/renode/Renode commands.md"
               }
             }
           }
@@ -177,12 +216,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9c575ef9a6ede0ec",
+  "active": "4020eb5b8c249224",
   "lastOpenFiles": [
-    "emulations/qemu/qemu_commands.md",
-    "emulations/renode/renode_commands.md",
-    "emulations/renode/RENODE.md",
-    "emulations/qemu/QEMU.md",
+    "emulations/renode/Renode landing page.md",
+    "emulations/qemu/QEMU functional.md",
+    "emulations/renode/UART_JOB/build/stm32f4xx_hal_pwr_ex.o",
+    "emulations/renode/UART_JOB/build/stm32f4xx_hal_pwr.o",
+    "emulations/renode/UART_JOB/build/stm32f4xx_hal_rcc.o",
+    "emulations/renode/UART_JOB/STM32F407VGTx_FLASH.ld",
+    "emulations/renode/UART_JOB/Makefile",
+    "emulations/renode/UART_JOB/build/stm32f4xx_hal_rcc_ex.d",
+    "emulations/renode/UART_JOB/build/stm32f4xx_hal_rcc.d",
+    "emulations/renode/UART_JOB/build/stm32f4xx_hal_pwr_ex.d",
+    "emulations/renode/UART_JOB/build/stm32f4xx_hal_pwr.d",
+    "emulations/renode/UART_JOB/stm32f4.repl",
+    "emulations/renode/Renode functional.md",
+    "emulations/qemu/QEMU commands.md",
+    "emulations/renode/Renode commands.md",
+    "emulations/qemu/QEMU landing page.md",
     "Renode landing page.md",
     "qemu.md",
     "emulations/qemu/UART_JOB/Untitled.md",
@@ -202,20 +253,7 @@
     "Pasted image 20230714094729.png",
     "renode vs qemu.md",
     "Все.md",
-    "emulations/renode",
-    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM7_SP/RTE_Components.h",
-    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM4_FP/RTE_Components.h",
-    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/Compiler/EventRecorderConf.h",
-    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM3/RTE_Components.h",
-    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM7_SP/RTE_Components.h",
-    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/gru/RTE/_ARMCM0/RTE_Components.h",
-    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM3/RTE_Components.h",
-    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM4_FP/RTE_Components.h",
-    "emulations/qemu/UART_JOB/Drivers/CMSIS/NN/Examples/ARM/arm_nn_examples/cifar10/RTE/_ARMCM0/RTE_Components.h",
     "Что происходило.md",
-    "23.06.23.md",
-    "23.06.23 (Удачная сборка CMake).md",
-    "Что нашел интересного.md",
-    "Пошаговая инструкция.md"
+    "23.06.23.md"
   ]
 }

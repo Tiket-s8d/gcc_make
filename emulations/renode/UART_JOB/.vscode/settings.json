@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "mainc.h": "c",
+        "main.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "stdint.h": "c",
+        "errno.h": "c",
+        "uart.h": "c",
+        "stm32f4xx_hal_uart.h": "c",
+        "stm32f4xx_ll_usart.h": "c",
+        "stm32f4xx_ll_rcc.h": "c",
+        "stm32f4xx_ll_gpio.h": "c",
+        "stdio.h": "c"
+    }
+    
+}
