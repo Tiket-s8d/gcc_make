@@ -6,59 +6,26 @@
       {
         "id": "ac86d8d5c3dd2136",
         "type": "tabs",
-        "dimension": 49.91212653778559,
         "children": [
           {
-            "id": "d66161511a3c3fca",
+            "id": "02e33c7542c4b4f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "emulations/qemu/QEMU functional.md",
+                "file": "Sources/proj_cmake/Какие могут быть ошибки.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bf2b2884982b57f0",
+            "id": "7377dec9c54cff7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "emulations/qemu/QEMU landing page.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "7a7a8fdf8320a849",
-        "type": "tabs",
-        "dimension": 50.08787346221442,
-        "children": [
-          {
-            "id": "8a53eac7cfc42e15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "emulations/renode/Renode landing page.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16a547fc5614db39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "emulations/renode/Renode functional.md",
+                "file": "Гепотиза.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 338.5
   },
   "right": {
     "id": "23abe52bebb18fab",
@@ -130,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "emulations/qemu/QEMU landing page.md",
+                "file": "Sources/proj_cmake/Какие могут быть ошибки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "emulations/qemu/QEMU landing page.md",
+                "file": "Sources/proj_cmake/Какие могут быть ошибки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "emulations/qemu/QEMU landing page.md"
+                "file": "Sources/proj_cmake/Какие могут быть ошибки.md"
               }
             }
           }
@@ -191,46 +158,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf2b2884982b57f0",
+  "active": "02e33c7542c4b4f9",
   "lastOpenFiles": [
-    "emulations/renode/Renode landing page.md",
-    "emulations/renode/Renode commands.md",
-    "emulations/renode/Renode functional.md",
-    "emulations/qemu/QEMU landing page.md",
-    "emulations/qemu/QEMU commands.md",
-    "emulations/qemu/QEMU functional.md",
+    "Sources/google-test-c/build/CMakeFiles/run-unit-test.dir/ut_example.cpp.obj",
+    "Sources/google-test-c/build/CMakeFiles/run-unit-test.dir/ut_example.cpp.obj.d",
+    "Sources/google-test-c/build/CMakeFiles/Progress/1",
+    "Sources/google-test-c/build/CMakeFiles/Progress/count.txt",
+    "Sources/google-test-c/build/CMakeFiles/Progress",
+    "Sources/google-test-c/build/CMakeFiles/run-unit-test.dir/objects1.rsp",
+    "Sources/google-test-c/build/CMakeFiles/run-unit-test.dir/progress.make",
+    "Sources/google-test-c/build/CMakeFiles/run-unit-test.dir/includes_CXX.rsp",
+    "Sources/google-test-c/build/CMakeFiles/run-unit-test.dir/linkLibs.rsp",
+    "Sources/google-test-c/build/CMakeFiles/run-unit-test.dir/flags.make",
+    "Sources/google-test-c/build/CMakeFiles/run-unit-test.dir/DependInfo.cmake",
+    "Sources/google-test-c/include/gtest/internal/custom/README.md",
+    "Sources/google-test-c/include/gmock/internal/custom/README.md",
+    "Sources/gtest-demo/gtest-demo/README.md",
+    "Sources/gtest-demo/gtest-demo/googletest/googletest/include/gtest/internal/custom/README.md",
+    "Sources/gtest-demo/gtest-demo/googletest/googletest/docs/README.md",
+    "Sources/gtest-demo/gtest-demo/googletest/googletest/README.md",
+    "Sources/gtest-demo/gtest-demo/googletest/googlemock/include/gmock/internal/custom/README.md",
+    "Sources/gtest-demo/gtest-demo/googletest/googlemock/docs/README.md",
+    "Sources/gtest-demo/gtest-demo/googletest/googlemock/README.md",
+    "Sources/gtest-demo/gtest-demo/googletest/docs/reference/mocking.md",
+    "Sources/gtest-demo/gtest-demo/googletest/docs/reference/testing.md",
+    "Sources/gtest-demo/gtest-demo/googletest/docs/reference/assertions.md",
+    "Sources/gtest-demo/gtest-demo/googletest/docs/reference/matchers.md",
+    "Sources/gtest-demo/gtest-demo/googletest/docs/reference/actions.md",
+    "Sources/gtest-demo/gtest-demo/googletest/docs/samples.md",
+    "Sources/gtest-demo/gtest-demo/googletest/docs/quickstart-cmake.md",
+    "Sources/gtest-demo/gtest-demo/googletest/docs/quickstart-bazel.md",
+    "Sources/gtest-demo/gtest-demo/googletest/docs/primer.md",
+    "Sources/gtest-demo/gtest-demo/googletest/docs/platforms.md",
+    "Sources/gtest-demo/gtest-demo/googletest/docs/pkgconfig.md",
+    "Sources/gtest-demo/gtest-demo/googletest/docs/index.md",
+    "Sources/gtest-demo/gtest-demo/googletest/docs/gmock_for_dummies.md",
+    "Sources/gtest-demo/gtest-demo/googletest/docs/gmock_faq.md",
+    "Sources/gtest-demo/gtest-demo/googletest/docs/community_created_documentation.md",
+    "Sources/gtest-demo/gtest-demo/googletest/docs/gmock_cook_book.md",
     "emulations/renode/img/report_passed.png",
-    "emulations/renode/img/report_passed.png.crdownload",
     "emulations/renode/img/log_passed.png",
-    "emulations/renode/img/log_passed.png.crdownload",
-    "emulations/renode/img",
-    "emulations/renode/Новая папка",
-    "emulations/renode/UART_JOB/build/stm32f4xx_hal_pwr_ex.o",
-    "emulations/renode/UART_JOB/build/stm32f4xx_hal_pwr.o",
-    "emulations/renode/UART_JOB/build/stm32f4xx_hal_rcc.o",
-    "emulations/renode/UART_JOB/STM32F407VGTx_FLASH.ld",
-    "emulations/renode/UART_JOB/Makefile",
-    "emulations/renode/UART_JOB/build/stm32f4xx_hal_rcc_ex.d",
-    "Renode landing page.md",
-    "qemu.md",
-    "emulations/qemu/UART_JOB/Untitled.md",
-    "QEMU landing page.md",
-    "emulations/qemu/UART_JOB/qemu.md",
-    "16.06.23.md",
-    "12.07.23 (Конфигурационный файл для настройки ВМ qemu).md",
-    "11.07.23 (Как запустить периферию в QEMU (Не работает)).md",
-    "10.07.23 (Эмуляция периферии в QEMU для stm32).md",
-    "06.07.23 (Передача по UART).md",
-    "06.07.23.md",
-    "05.07.23.md",
-    "Untitled.md",
     "Untitled.canvas",
-    "Untitled 1.md",
-    "CMAKE.md",
-    "Pasted image 20230714094729.png",
-    "renode vs qemu.md",
-    "Все.md",
-    "Что происходило.md",
-    "23.06.23.md"
+    "Pasted image 20230714094729.png"
   ]
 }

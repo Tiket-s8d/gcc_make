@@ -1,0 +1,17 @@
+{
+    "image":"02bddd12931f",
+
+
+	"forwardPorts": [3000],
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools",
+				"ms-vscode.cpptools-extension-pack",
+				"ms-vscode.cmake-tools",
+			]
+		}
+	}
+	
+}
