@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 3.24)
+set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/toolchain.cmake)
+
 project(my_project)
 
 
@@ -15,14 +17,12 @@ add_executable(
   test_lists 
   ${CMAKE_SOURCE_DIR}/src/main.c 
   ${CMAKE_SOURCE_DIR}/src/test_list.c 
-  ${CMAKE_SOURCE_DIR}/inc/test_list.h 
   )
 
 add_executable(
   hello_test
   ${CMAKE_SOURCE_DIR}/tests/main.cpp
   ${CMAKE_SOURCE_DIR}/tests/hello_test.cpp
-  ${CMAKE_SOURCE_DIR}/inc/test_list.h
 )
 
 
