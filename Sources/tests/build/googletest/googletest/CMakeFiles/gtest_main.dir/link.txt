@@ -1,0 +1,2 @@
+"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-ar.exe" qc ../../lib/libgtest_main.a CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj
+"C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-ranlib.exe" ../../lib/libgtest_main.a
