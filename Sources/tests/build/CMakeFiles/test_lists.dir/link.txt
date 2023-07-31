@@ -1,0 +1,1 @@
+/usr/bin/arm-none-eabi-gcc  -O0 -fno-builtin -Wall -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs  -std=gnu99 --specs=nosys.specs CMakeFiles/test_lists.dir/src/main.c.obj CMakeFiles/test_lists.dir/src/test_list.c.obj -o test_lists 

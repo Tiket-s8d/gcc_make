@@ -1,0 +1,1 @@
+/usr/bin/arm-none-eabi-g++  -O0 -fno-builtin -Wall -ffunction-sections -fdata-sections -fomit-frame-pointer -mabi=aapcs -Wall -Wno-long-long -O0  -U__STRICT_ANSI__ --specs=nosys.specs  CMakeFiles/hello_test.dir/tests/main.cpp.obj CMakeFiles/hello_test.dir/tests/hello_test.cpp.obj -o hello_test  lib/libgtest_main.a lib/libgtest.a 

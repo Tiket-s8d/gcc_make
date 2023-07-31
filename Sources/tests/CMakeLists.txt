@@ -10,6 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # For Windows: Prevent overriding the parent project's compiler/linker settings
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+set(gtest_disable_pthreads ON CACHE BOOL "" FORCE)
 add_subdirectory(googletest)
 enable_testing()
 
