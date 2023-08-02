@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "cortex-debug.svd-viewer",
+        "mcu-debug.rtos-views",
+        "marus25.cortex-debug",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cpptools"
+    ]
+}
