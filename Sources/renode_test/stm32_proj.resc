@@ -1,0 +1,16 @@
+:name: STM32F4 Discovery
+:description: This script runs Contiki on STM32F4 Discovery.
+
+using sysbus
+$name?="STM32F103"
+mach create $name
+machine LoadPlatformDescription @C:\Users\Timofey\Documents\Projects\gcc_make\Sources\renode_test\stm32f103.repl
+
+cpu PerformanceInMips 125
+
+$bin?=@C:\Users\Timofey\Documents\Projects\gcc_make\Sources\renode_test\build\bin\MyApp.elf
+
+showAnalyzer sysbus.usart1
+sysbus LoadELF $bin
+
+runMacro $reset
