@@ -4,16 +4,16 @@ set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/toolchain.cmake)
 project(MyApp C ASM)
 
 file(GLOB MAIN_SRC "${CMAKE_SOURCE_DIR}/Core/src/*.c")
-file(GLOB DRIVERS_SRC "${CMAKE_SOURCE_DIR}/Drivers/STM32F1xx_HAL_Driver/Src/*.c")
+file(GLOB DRIVERS_SRC "${CMAKE_SOURCE_DIR}/Drivers/STM32F4xx_HAL_Driver/Src/*.c")
 
 
-add_executable(${PROJECT_NAME} ${MAIN_SRC} ${DRIVERS_SRC} startup_stm32f103xb.s)
+add_executable(${PROJECT_NAME} ${MAIN_SRC} ${DRIVERS_SRC} startup_stm32f407xx.s)
 
 target_include_directories(${PROJECT_NAME} PRIVATE 
     ${CMAKE_SOURCE_DIR}/Core/Inc 
-    ${CMAKE_SOURCE_DIR}/Drivers/STM32F1xx_HAL_Driver/Inc 
-    ${CMAKE_SOURCE_DIR}/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy 
-    ${CMAKE_SOURCE_DIR}/Drivers/CMSIS/Device/ST/STM32F1xx/Include 
+    ${CMAKE_SOURCE_DIR}/Drivers/STM32F4xx_HAL_Driver/Inc 
+    ${CMAKE_SOURCE_DIR}/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy 
+    ${CMAKE_SOURCE_DIR}/Drivers/CMSIS/Device/ST/STM32F4xx/Include 
     ${CMAKE_SOURCE_DIR}/Drivers/CMSIS/Include    
 )
 
@@ -29,5 +29,5 @@ add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
 target_compile_definitions(${PROJECT_NAME} PRIVATE 
 DEBUG
 USE_HAL_DRIVER
-STM32F103xB
+STM32F407xx
 )

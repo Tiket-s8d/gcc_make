@@ -7,12 +7,15 @@
         {
             "name": "Cortex Debug",
             "cwd": "${workspaceFolder}",
-            "executable": "./bin/executable.elf",
+            "executable": "./build/bin/MyApp.elf",
+            "preRestartCommands" : [ "load", "enable breakpoint", "monitor reset" ],
+            "device": "STM32F407VG",
             "request": "attach",
+            "servertype": "external",
+            "gdbTarget": ":3333",
             "type": "cortex-debug",
             "runToEntryPoint": "main",
-            "servertype": "openocd"
-            
+            "cpu": "cortex-m4",
         }
     ]
 }
